@@ -2,6 +2,11 @@
 
 ## Program:
 ```
+/*
+Program to implement the simple linear regression model for predicting the marks scored.
+Developed by:S.Priyadharshini
+RegisterNumber:25017590
+
 step-1:
 import numpy as np
 import pandas as pd
@@ -56,6 +61,7 @@ print("R² Score:", r2_score(y_test, y_pred))
 ```
 
 step-9:
+
 plt.figure(figsize=(8,6))
 plt.scatter(X, y, color='blue', label="Actual Data")
 plt.plot(X, model.predict(X), color='red', linewidth=2, label="Regression Line")
@@ -66,6 +72,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
+/*
 ```
 
 ## Output:
